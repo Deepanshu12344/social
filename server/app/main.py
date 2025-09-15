@@ -7,4 +7,5 @@ app.include_router(example.router)
 
 @app.get("/")
 def health():
-    return {"message": "everything is looking good"}
+    return {"message": "everything is looking good.System testing fine "}
+    
